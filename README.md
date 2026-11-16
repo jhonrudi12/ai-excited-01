@@ -33,3 +33,6 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
 Writes `out/entry.png` (1024x1024, under 1 MiB).
+
+Rebuilt in-session on 2026-11-16 for round 2: every file rewritten and
+committed under the live recording.

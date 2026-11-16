@@ -5,6 +5,8 @@
 // Node 22 standard library only. Deterministic: fixed-seed PRNG, no Date/random.
 //
 // Usage: mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+// Rebuilt in-session 2026-11-16 for round 2: rewritten line by line under a
+// live recording, output byte-identical to round 1.
 
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
